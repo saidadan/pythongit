@@ -1,7 +1,7 @@
 import sys
 import random
 
-ans = False
+ans = True
 
 while ans:
     question = input("Ask the magic 8 ball a question: (press enter to quit) ")
