@@ -8,11 +8,10 @@ print (now.day)
 print (now.hour)
 print (now.minute)
 print (now.second)
+print (now.third)
 
 print ("-" * 100)
 print ("1 week ago was it: ", now - datetime.timedelta(weeks=1))
 print ("100 days ago was: ", now - datetime.timedelta(days=100))
 print ("1 week from now is it: ", now + datetime.timedelta(weeks=1))
 print ("In 1000 days from now is it: ", now + datetime.timedelta(days=1000))
-
-
